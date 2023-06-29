@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  background: url(../image/pexels-david-doddridge-17298484.jpg), no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #201f20;
+  color: white;
+  height: 70px;
+  text-align: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.link {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  padding-left: 15px;
+  color: white;
+}
+a:hover {
+  color: aqua;
+}
+a:active {
+  border-bottom: solid red;
+}
+h2 {
+  font-size: 50px;
+}
+.signup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+input {
+  display: flex;
+  flex-direction: column;
+
+  width: 300px;
+  padding: 15px;
+  border: solid rgb(54, 54, 219);
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
