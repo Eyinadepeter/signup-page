@@ -52,7 +52,10 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-left: 40%;
+  padding-top: 5%;
 }
+
 input {
   display: flex;
   flex-direction: column;
@@ -61,4 +64,50 @@ input {
   padding: 15px;
   border: solid rgb(54, 54, 219);
   box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+/* .signup-form {
+  display: flex;
+  flex-direction: column;
+
+  width: 300px;
+  padding: 15px;
+  border: solid rgb(54, 54, 219);
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+} */
+form {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  width: 30rem;
+  height: 40rem;
+  border-radius: 20px;
+  align-items: center;
+}
+.register {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  padding: 50px 0 0 50px;
+  font-size: 30px;
+}
+input {
+  padding: 4px 8px;
+  border-radius: 20px;
+}
+button {
+  width: 80%;
+  height: 36px;
+  border-radius: 20px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+button:hover {
+  color: white;
+  background: rgb(95, 3, 87);
+  box-shadow: 0 0 5px rgb(95, 3, 87), 0 0 25px rgb(95, 3, 87),
+    0 0 50px rgb(95, 3, 87), 0 0 100px rgb(95, 3, 87);
 }
