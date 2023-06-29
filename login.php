@@ -2,7 +2,7 @@
 include_once "header.php"
 
 ?>
-<link rel="stylesheet" href="./styles/style.css">
+<link rel="stylesheet" href="./styles/login.css">
 
 <body>
     <section class="sign_up">
@@ -10,9 +10,31 @@ include_once "header.php"
         <div class="signup">
             <form action="controller/log_in.php" method="post">
 
-                <input type="text" name="uid " placeholder="username/email">
+                <!-- <input type="text" name="uid " placeholder="username/email">
                 <input type="password" name="pwd" placeholder="password">
-                <button type="submit" name="submit">Log In</button>
+                <button type="submit" name="submit">Log In</button> -->
+
+        <div class="login">
+        <label>
+          Username:
+          <input 
+            type="text"
+            name="uid"
+            placeholder="input your username or email"
+          />
+        </label>
+        <label>
+          Password:
+          <input
+            type="password"
+            name="pwd"
+            placeholder="input your password"
+          />
+        </label>
+
+        <button type="submit" name="submit">Login</button>
+
+        <p>Don't have an account? <a href="signup.php">Sign Up</a></p>
             </form>
         </div>
 
@@ -26,6 +48,7 @@ include_once "header.php"
         }
     
         ?>
+        </div>
 
     </section>
 

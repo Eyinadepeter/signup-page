@@ -46,6 +46,7 @@ include_once "header.php"
         </label>
 
         <button type="submit" name="submit">Regiter</button>
+        <p>Already have an account? <a href="login.php">Login</a></p>
       </div>
             </form>
         </div>
