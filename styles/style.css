@@ -76,6 +76,7 @@ form {
   height: 40rem;
   border-radius: 20px;
   align-items: center;
+  flex-wrap: wrap;
 }
 .register {
   display: flex;
