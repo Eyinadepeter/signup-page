@@ -33,7 +33,7 @@
         return $result;
     }
 
-    function pwdMatch($pwd, $pwdRepeat)
+    function pwdMat ch($pwd, $pwdRepeat)
     {
 
         if ($pwd !== $pwdRepeat) {
@@ -64,7 +64,7 @@
         }
 
         mysqli_stmt_close($stmt);
-    }
+rg     }
 
     function createUser($conn, $name, $email, $username, $pwd)
     {
@@ -73,7 +73,7 @@
         if (!mysqli_stmt_prepare($stmt, $sql)) {
             header("location: ../signup.php?error=stmtfailed");
             exit();
-        }
+        } 
 
         $hashedpwd = password_hash($pwd, PASSWORD_DEFAULT);
 
